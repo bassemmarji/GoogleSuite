@@ -97,7 +97,7 @@ def add_worksheet(sheet,ws,name):
 
 def is_valid_path(path):
     """
-    Validates the path inputted and checks whether it is a file path or a folder path
+    Validates the path inputted as a parameter and ensures that it is a file path
     """
     if not path:
         raise ValueError(f"Invalid Path")
